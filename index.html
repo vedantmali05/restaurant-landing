@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FOOD</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  Links -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="food.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><span class="iconify" data-icon="emojione:pot-of-food"
+                data-inline="false"></span><label>FOODS</label></a>
+        <div id="menu-bar" onclick="menu_rotate();"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+                <g>
+                    <circle cx="12" cy="12" r="2" />
+                    <circle cx="19" cy="12" r="2" />
+                    <circle cx="5" cy="12" r="2" />
+                </g>
+            </svg></div>
+        <nav class=" navbar ">
+            <a href="#home">HOME</a>
+            <a href="#speciality">SPECIALITY</a>
+            <a href="#popular">POPULAR</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#review">REVIEW</a>
+            <a href="#order">ORDER</a>
+        </nav>
+    </header>
+    <!-- HOME SECTION -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Welcome to FOODS</h3>
+            <p>Dear guests, you are welcomed to dine with us at FOOD restaurant. We will serve you with the mouth watering dishes. Eat, what makes you happy. Have a pleasant experience.</p>
+            <a href="#order" class="btn" id="btn1">Order Now</a>
+            <a href="#order" class="btn" id="btn2">Book Table</a>
+
+        </div>
+        <div class="image">
+            <img src="./assets/home-image.png" alt="FOODS">
+        </div>
+
+    </section>
+    <!-- SPECIALITY SECTION -->
+    <section class="speciality" id="speciality">
+        <h1 class="heading">Our <span>Speciality</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img class="image" src="./assets/s-img-1.jpg" alt="burger1">
+                <div class="content">
+                    <img src="./assets/s-1.png" alt="burger_icon">
+                    <h3>Cheese Burgers</h3>
+                    <p>Say Cheese, lets 'Meat' up. You did something today to deserve a burger. We're sure of it! </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="image" src="./assets/s-img-2.jpg" alt="burger1">
+                <div class="content">
+                    <img src="./assets/s-2.png" alt="burger_icon">
+                    <h3>Tasty Pizzas</h3>
+                    <p>If you eat 3 slices of pizza without separating them, it counts as just one. So get a slice of heaven!
+                    </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="image" src="./assets/s-img-3.jpg" alt="burger1">
+                <div class="content">
+                    <img src="./assets/s-3.png" alt="burger_icon">
+                    <h3>Cold Softie</h3>
+                    <p>Why pay for therapy when you can just have a cool gelato for a tiny fraction of the cost?</p>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img class="image" src="./assets/s-img-4.jpg" alt="burger1">
+                <div class="content">
+                    <img src="./assets/s-4.png" alt="burger_icon">
+                    <h3>Perfect Drinks</h3>
+                    <p>Be Cool, Be drink! They can balance your body and ability to retain water.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="image" src="./assets/s-img-5.jpg" alt="burger1">
+                <div class="content">
+                    <img src="./assets/s-5.png" alt="burger_icon">
+                    <h3>Sweets as you</h3>
+                    <p>Make the 'Sweet' moments of your life more sweeter. Also, keep enjoying your Sweet Memories</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="image" src="./assets/s-img-6.jpg" alt="burger1">
+                <div class="content">
+                    <img src="./assets/s-6.png" alt="burger_icon">
+                    <h3>Coffee Sip</h3>
+                    <p>If you are in love with coffee then you naturally like to express yourself. Grab a cup and show off more!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- POPULAR SECTION -->
+    <section class="popular" id="popular">
+        <h1 class="heading">Most <span>Popular</span> Foods</h1>
+        <div class="box-container">
+            <div class="box">
+                <span class="price">$5 - $20</span>
+                <img src="./assets/p-1.jpg" alt="GugulethuBurger">
+                <h3>Gugulethu Burger</h3>
+                <div class="star">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                </div>
+                <a href="#order" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <span class="price">$15 - $30</span>
+                <img src="./assets/p-2.jpg" alt="MandarinCake">
+                <h3>Mandarin Cake</h3>
+                <div class="star">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                </div>
+                <a href="#order" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <span class="price">$8 - $25</span>
+                <img src="./assets/p-3.jpg" alt="CrustGarlicPizza">
+                <h3>Crust Garlic Pizza</h3>
+                <div class="star">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                </div>
+                <a href="#order" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <span class="price">$5 - $15</span>
+                <img src="./assets/p-4.jpg" alt="FrostingMuffins">
+                <h3>Frosting Muffins</h3>
+                <div class="star">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_border</i>
+                </div>
+                <a href="#order" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <span class="price">$5 - $15</span>
+                <img src="./assets/p-5.jpg" alt="FruitJuices">
+                <h3>Fruit Juices</h3>
+                <div class="star">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_border</i>
+                </div>
+                <a href="#order" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+                <span class="price">$8 - $18</span>
+                <img src="./assets/p-6.jpg" alt="StrawberryPopsicles">
+                <h3>Strawberry Popsicles</h3>
+                <div class="star">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_border</i>
+                </div>
+                <a href="#order" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- PURCHASE SECION -->
+    <section class="steps">
+        <div class="box">
+            <img src="./assets/step-1.jpg" alt="Order">
+            <h3>Order Your favourite...</h3>
+        </div>
+        <div class="box">
+            <img src="./assets/step-2.jpg" alt="Delivery">
+            <h3>Free and Fast Delivery...</h3>
+        </div>
+        <div class="box">
+            <img src="./assets/step-3.jpg" alt="Payment">
+            <h3>Easy Payment Methods...</h3>
+        </div>
+        <div class="box">
+            <img src="./assets/step-4.jpg" alt="Have-it">
+            <h3>Enjoy the meal!</h3>
+        </div>
+    </section>
+    <!-- GALLERY SECTION -->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">The <span>Menu Gallery</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>Hamburgers</h3>
+                    <p>28 varieties available</p>
+                    <a href="#popular" class="btn">View All</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>Pizzas</h3>
+                    <p>18 varieties available</p>
+                    <a href="#popular" class="btn">View All</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>Sandwiches</h3>
+                    <p>41 varieties available</p>
+                    <a href="#popular" class="btn">View All</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>Cuttlets</h3>
+                    <p>25 varieties available</p>
+                    <a href="#popular" class="btn">View All</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>Cupcakes</h3>
+                    <p>31 varieties available</p>
+                    <a href="#popular" class="btn">View All</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>Tofu</h3>
+                    <p>35 varieties available</p>
+                    <a href="#popular" class="btn">View All</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>Pancakes</h3>
+                    <p>18 varieties available</p>
+                    <a href="#popular" class="btn">View All</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>Chocolates</h3>
+                    <p>23 varieties available</p>
+                    <a href="#popular" class="btn">View All</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>Banana Breads</h3>
+                    <p>7 varieties available</p>
+                    <a href="#popular" class="btn">View All</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h1 class="heading">Our <span>Customer's Review</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/pic1.png" alt="">
+                <h3>John Doe</h3>
+                <div class="star">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis possimus iste ipsam esse, modi tenetur debitis mollitia non voluptates molestiae commodi blanditiis dignissimos praesentium?
+                </p>
+            </div>
+            <div class="box">
+                <img src="./assets/pic2.png" alt="">
+                <h3>John Doe</h3>
+                <div class="star">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis possimus iste ipsam esse, modi tenetur debitis mollitia non voluptates molestiae commodi blanditiis dignissimos praesentium?
+                </p>
+            </div>
+            <div class="box">
+                <img src="./assets/pic3.png" alt="">
+                <h3>John Doe</h3>
+                <div class="star">
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star</i>
+                    <i class="material-icons">star_half</i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis possimus iste ipsam esse, modi tenetur debitis mollitia non voluptates molestiae commodi blanditiis dignissimos praesentium?
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ORDER SECTION -->
+    <section class="order" id="order">
+        <h1 class="heading"><span>Book</span> or <span>Ordering</span></h1>
+        <div class="row">
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="email" placeholder="Email">
+                </div>
+                <button type="button" class="btn" onclick="order();">Order Meal</button>
+                <button type="button" class="btn" onclick="book();">Book Table</button>
+            </form>
+            <div id="order-form">
+                <div class="notice">Pay after delivery only</div>
+                <form action="">
+                    <div class="inputBox">
+                        <input type="text" placeholder="Meal name">
+                        <input type="text" placeholder="Quantity">
+                        <input type="text" placeholder="Taste (spicy, medium-spicy, etc.)">
+                        <input type="number" placeholder="Number of orders">
+                    </div>
+                    <textarea rows="10" cols="30" placeholder="Address"></textarea>
+                    <button class="btn">Order</button>
+
+                </form>
+            </div>
+            <div id="book-form">
+                <div class="notice">Pay after visiting only</div>
+                <form action="">
+                    <div class="inputBox">
+                        <input type="number" placeholder="Number of guests">
+                        <input type="number" placeholder="Number of tables">
+                        <input type="text" placeholder="Date">
+                        <input type="text" placeholder="Time">
+                    </div>
+                    <textarea rows="10" cols="30" placeholder="Any comments/additional requirements..."></textarea>
+                    <button class="btn">Book</button>
+
+                </form>
+            </div>
+            <div class="image">
+                <img src="./assets/order-img.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+    <!-- FOOTER SECTION -->
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="btn">Facebook</a>
+            <a href="#" class="btn">Twitter</a>
+            <a href="#" class="btn">instagram</a>
+            <a href="#" class="btn">pinterest</a>
+            <a href="#" class="btn">linkedin</a>
+        </div>
+        <h1 class="credit">Created by <span>Mr. Vedant Mali</span>.<br> inspired from the <span><a href="https://youtu.be/bLSPJ-WzdqE" target="_blank">video</a></span> of <span>mr. web designer</span> </h1>
+
+    </section>
+    <!-- Scroll to Top -->
+    <a href="#home" id="scroll-top"><i class="material-icons">arrow_upward</i></a>
+    <!-- Loading Screen -->
+    <div class="loader-container">
+        <img src="./assets/loader.gif" alt="">
+    </div>
+    <!-- spript -->
+    <script src="food.js" async defer>
+    </script>
+    <script>
+    </script>
+</body>
+
+</html>
+
+<!-- https://cdnjs.com/libraries/font-awesome -->
