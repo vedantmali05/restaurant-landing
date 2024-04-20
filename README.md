@@ -2,7 +2,7 @@
 Here is a responsive landing page presenting the information of a Restaurant with all the sections like header, popular, specialities and forms for booking table or ordering food.
 
 ## Live Here
-[vedantmali.github.io/restaurant-landing](https://vedantmali05.github.io/restaurant-landing/)
+[vedantmali05.github.io/restaurant-landing](https://vedantmali05.github.io/restaurant-landing/)
 
 ## Built With
 - HTML5
